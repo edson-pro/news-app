@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Search, X } from "react-feather";
+import { Search } from "react-feather";
 import { useDispatch } from "react-redux";
 import { setArticles } from "../../features/articles";
 import { useSearchArticlesQuery } from "../../services/articlesApi";

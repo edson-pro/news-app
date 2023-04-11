@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { useGetPublisherQuery } from "../../../services/publishersApi";
 import SearchInput from "../../ui/SearchInput";
-import Slider from "react-slick";
-import settings from "../../../config/reactSlickSetting";
 import { Link } from "react-router-dom";
 import NavSkeleton from "./NavSkeleton";
 
