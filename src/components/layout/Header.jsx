@@ -9,7 +9,7 @@ export default function Header() {
       </Link>
       <div className="">
         <Link
-          to="https://www.hirwaaldo.com/#Contact"
+          to="/"
           target="_blank"
           rel="noreferrer"
           className="bg-transparent text-sm border bg-indigo-200 text-indigo-600 border-indigo-500 rounded-[3px] pt-1.5 pb-2 px-4"
