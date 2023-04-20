@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next {
+  @apply bg-gray-900 hover:bg-gray-900 focus:bg-gray-900 bg-opacity-60 rounded-full flex justify-center p-0.5 w-5 h-5 cursor-pointer z-50;
+}
