@@ -3,7 +3,7 @@ const { REACT_APP_API_KEY, REACT_APP_API_URL } = process.env;
 export const articlesApi = createApi({
   reducerPath: "articlesApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: REACT_APP_API_URL,
+    baseUrl: "REACT_APP_API_URL",
   }),
 
   endpoints: (builder) => ({
